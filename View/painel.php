@@ -1,6 +1,6 @@
 <?php
 
-include('protect.php');
+include('../controller/protect.php');
 ?>
 
 <!DOCTYPE html>
@@ -11,11 +11,12 @@ include('protect.php');
     <title>Painel</title>
 </head>
 <body>
-    Bem Vindo ao Painel, <?php echo $_SESSION['name']; ?>
+    <h1>Bem Vindo ao Painel</h1>
+    <?php echo $_SESSION['name']; ?>
 
     <p>
 
-        <a href="logout.php">Sair</a>
+        <a href="../controller/logout.php">Sair</a>
     </p>
 </body>
 </html>
