@@ -35,9 +35,7 @@ label {
     color: white;
 }
 
-.esqueceuSenha {
-    color: white;
-}
+
 .login-section {
     background-color: #f96153;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -129,12 +127,12 @@ img {
     margin-bottom: .0rem;
     margin-top: 5rem;
     margin-left: 10.5rem;
-    border: 2px solid #3498db;
+    border: 2px solid #bf9f88;
     border-radius: 15px;
     
 }
 img:hover{
     transition: 0.7s;
     transform: scalex(-1);
-    border: 2px solid #3498db;
+    border: 2px solid #bf9f88;
 }
