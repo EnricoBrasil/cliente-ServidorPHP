@@ -2,9 +2,9 @@
 include('controller/conexao.php');
 if (isset($_POST['email']) || isset($_POST['senha'])) {
     if (strlen($_POST['email']) == 0) {
-        echo "Preencha seu e-mail";
+        echo "<h1>Preencha seu e-mail</h1>";
     } else if (strlen($_POST['senha']) == 0) {
-        echo "Preencha sua senha";
+        echo "<h1>Preencha sua senha</h1>";
     } else {
 
         $email = $mysqli->real_escape_string($_POST['email']);
@@ -27,7 +27,7 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
 
             header("Location: View/painel.php");
         } else {
-            echo "Falha ao logar! E-mail ou senha incorretos";
+            echo "<h1>Falha ao logar! E-mail ou senha incorretos</h1>";
         }
     }
 }
