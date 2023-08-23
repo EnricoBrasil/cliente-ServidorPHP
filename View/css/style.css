@@ -123,12 +123,12 @@ a:hover {
 }
 img {
     width: 20rem;
-    height: 22rem;
+    height: 28rem;
     margin-bottom: .0rem;
     margin-top: 5rem;
-    margin-left: 10.5rem;
+    margin-left: 10.3rem;
     border: 2px solid #bf9f88;
-    border-radius: 8px;
+    border-radius: 22px;
     
 }
 img:hover{

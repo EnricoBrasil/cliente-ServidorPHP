@@ -13,10 +13,10 @@ include('../controller/protect.php');
     <title>Painel</title>
 </head>
 <body>
-    <h1>Bem Vindo ao Painel</h1>
-    <img src="img/enrico.jpeg">
-    <img src="img/fabio.jpeg">
-    <img src="img/everson.jpeg"><br><br><br><br>
+    <h1>Painel do Baralho</h1>
+    <img src="img/card-enrico.jpg">
+    <img src="img/card-fabio.jpg">
+    <img src="img/card-everson.jpg"><br><br><br><br>
 
     <p>
         <a href="../controller/logout.php">Sair</a>
